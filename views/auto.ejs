@@ -1,0 +1,58 @@
+<%- include('partials/header'); -%>
+
+  <!-- Album of the stores -->
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Images\miya bhai (2).png" alt="">
+
+            <div class="card-body">
+              <h2 class="card-title">Miya Bhai Bikes and Servicing</h2>
+              <p class="card-special">🏷️Special Products: </p>
+              <p class="special-items" >Bullet servicing specialist</p>
+              <p class="card-offers">🤑Current Offers: </p>
+              <p class="offers-items" id="miyaBhai"> <%= miyaBhai %> </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> <a class ="edit" href="/shopkeeper">Edit</a></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Images\pathan auto.png" alt="">
+
+            <div class="card-body">
+              <h2 class="card-title">Pathan Auto and Spare Parts</h2>
+              <p class="card-special">🏷️Special Products: </p>
+              <p class="special-items">'70s and 80's bike and cars spare parts are available</p>
+              <p class="card-offers">🤑Current Offers: </p>
+              <p class="offers-items" id="pathanAuto"><%= pathanAuto %></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> <a class ="edit" href="/shopkeeper">Edit</a></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+
+    <!-- script code -->
